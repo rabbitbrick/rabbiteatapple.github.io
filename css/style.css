@@ -15,13 +15,17 @@ h2,h3{
 a{
   color:#000000;
 }
-a:hover,a:focus{
+/* a:hover,a:focus{ */
+/* a:focus{
+    text-decoration: none;
+  } */
+a:hover{
     color:#ffd000;
     text-decoration: none;
   }
 #banner .container, 
 main header, 
-#portfolio .grid, 
+#certification .grid, 
 #contact>div,
 footer #footer-above{
   display:-webkit-box;
@@ -58,10 +62,11 @@ footer #footer-above{
 #banner .container::before, #banner .container::after{
       display:none
     }
-#banner .container .scrollable .pagetitle{
+#banner .container .icon .pagetitle{
   font-size: 5px;
   text-decoration: none;
 }
+
 
 #banner img{
     height:50px;
@@ -73,7 +78,7 @@ nav{
   -webkit-transition:all .3s;
   transition:all .3s;
 }
-@media(max-width:768px){
+/* @media(max-width:768px){
 nav{
     padding:5px;
     text-align:center;
@@ -81,12 +86,12 @@ nav{
     width:120%
 }
     nav .active a{
-      color:#722872;
+      color:#da0404;
       background:#bbb;
       -webkit-box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
               box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
     }
-  }
+  } */
 .nav>li{
     height:100%;
     text-transform:uppercase;
@@ -179,22 +184,22 @@ main section#contact>div>div{
               margin-top:270px;
             }
         }
-#portfolio .grid{
+#certification .grid{
 	padding:0;
 	max-width:90%;
 	list-style:none; 
 	margin-top:20px;
 }
-#portfolio .grid li{
+#certification .grid li{
 	margin:20px;
   max-width:600px;
   }
 @media(min-width:1023px){
-#portfolio .grid li{
+#certification .grid li{
     max-width:420px
   }
     }
-#portfolio img{
+#certification img{
   
 	max-width:100%;
 	height:auto;
@@ -254,9 +259,9 @@ form .row:first-child .form-item{
       opacity:1;
       color:#aaa;
     }
-.form-item-focused label{
+/* .form-item-focused label{
       color:#722872;
-    }
+    } */
 footer{
   color:rgb(240, 240, 240);
   background-color:rgb(0, 0, 0);
@@ -313,14 +318,14 @@ footer h3{
   visibility:visible;
   bottom:2%;right:2%;
 }
-.scroll-top a{
+/* .scroll-top a{
     background:#722872;  
   }
 .scroll-top a:hover, .scroll-top a:focus{
       color:#722872;
-      background-color:#bbb;
+      background-color:rgb(138, 20, 20);
       border-color:#722872;
-    }
+    } */
 @media(min-width:768px){
 .scroll-top a{
       visibility:hidden  
